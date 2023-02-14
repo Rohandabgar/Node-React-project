@@ -1,0 +1,20 @@
+.indictor_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  width: 50vh;
+}
+.indictor {
+  margin: 1rem;
+  background-color: red;
+  height: 65px;
+  width: 60px;
+  background-color: #9de3c7;
+  border-radius: 50%;
+}

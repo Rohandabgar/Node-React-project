@@ -1,0 +1,68 @@
+.liftbtn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.liftbtn button {
+  width: 20vh;
+  height: 8vh;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(34, 34, 34);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #a1c4fd 0%,
+    #c2e9fb 51%,
+    #a1c4fd 100%
+  );
+}
+.floor {
+  color: rgb(62, 62, 86);
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    #f8cd91 0%,
+    #fcb69f 51%,
+    #ffecd2 100%
+  );
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.liftCounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.liftCounter .arrow {
+  display: inline-block;
+  font-size: 4rem;
+  color: red;
+}
